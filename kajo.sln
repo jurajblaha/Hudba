@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kajo", "kajo\kajo.csproj", "{3E82ACDD-73C7-4AE8-BC2B-CAF7BE3B9A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kniznica", "kniznica\kniznica.csproj", "{93008F4B-CDD7-46ED-A306-0E6563D47119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E82ACDD-73C7-4AE8-BC2B-CAF7BE3B9A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E82ACDD-73C7-4AE8-BC2B-CAF7BE3B9A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E82ACDD-73C7-4AE8-BC2B-CAF7BE3B9A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E82ACDD-73C7-4AE8-BC2B-CAF7BE3B9A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93008F4B-CDD7-46ED-A306-0E6563D47119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93008F4B-CDD7-46ED-A306-0E6563D47119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93008F4B-CDD7-46ED-A306-0E6563D47119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93008F4B-CDD7-46ED-A306-0E6563D47119}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D4271D0-39B2-4F56-B61E-C26F46F0C827}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+﻿@model List<kniznica.SongItem>
+
+<style>
+
+    .button2 {
+        display: grid;
+        width: 115px;
+        height: 25px;
+        background: #FFFFCC;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        color: black;
+        font-weight: italic;
+    }
+
+    .button {
+        display: block;
+        width: 115px;
+        height: 25px;
+        background: #4E9CAF;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+
+    td {
+        border: 1px solid #146b26;
+    }
+</style>
+<table cellspacing="0">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.id</td>
+            <td>@item.title</td>
+            <td>@item.artist</td>
+            <td>@item.lyrics</td>
+        </tr>
+    }
+</table>
+@Html.ActionLink("Save to DB", "Save")
+@Html.ActionLink("Delete all from DB", "DeleteAll")
+@Html.Label("Textbox for searching")
+@Html.TextBox("Textbox for searching",null,new {id="text_box_search"})
+@Html.ActionLink("Search artist", "SearchArtist", "Home", new { @class = "button2 button", onclick = "this.href += '&searchString=' + document.getElementById('text_box_search').value;" })
+
+
+
+
